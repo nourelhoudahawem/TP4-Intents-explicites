@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Nom :"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre nom"
+        android:inputType="textPersonName" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Prénom:"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/editPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre Prenom"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Email:"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/editMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Entrez votre Email"
+        android:inputType="textEmailAddress"
+        />
+    <Button
+        android:id="@+id/btnEnvoyer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
